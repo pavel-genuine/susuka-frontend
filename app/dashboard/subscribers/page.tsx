@@ -121,7 +121,7 @@ const COLUMNS: Column<IUser>[] = [
     ),
   },
   {
-    Header: "Subscription_Id",
+    Header: "Job_Id",
     accessor: "id",
     Cell: (row) => {
       return <span>{row?.cell?.value}</span>;
@@ -136,7 +136,7 @@ const COLUMNS: Column<IUser>[] = [
 
         </span> */}
         <span className="text-slate-600 dark:text-slate-300 capitalize w-[100px] text-center">
-          Name
+          Buyer Name
         </span>
         <span className="text-slate-600 dark:text-slate-300 capitalize w-[100px] text-center">
           Email
@@ -247,7 +247,7 @@ const COLUMNS: Column<IUser>[] = [
   {
     Header: (
       <span className=" px-5 text-slate-600 dark:text-slate-300 capitalize w-[100px] text-center">
-        Word Credit
+        Total Quantity
       </span>
     ),
     accessor: "wordCredit",
@@ -262,7 +262,7 @@ const COLUMNS: Column<IUser>[] = [
   {
     Header: (
       <span className=" px-5 text-slate-600 dark:text-slate-300 capitalize w-[100px] text-center">
-        Used Word Credit
+        Origin
       </span>
     ),
     accessor: "usedWordCredit",
@@ -466,7 +466,7 @@ const Subscribers = () => {
       <Card noborder>
         <div className="md:flex justify-between items-center mb-6">
           <div className="md:flex  items-center md:space-x-10">
-            <h4 className="card-title">Subscribers List</h4>
+            <h4 className="card-title">Jobs List</h4>
 
             <Select
               icon="heroicons:chevron-down"

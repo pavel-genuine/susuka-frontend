@@ -430,7 +430,7 @@ export const menuItems: NavRow[] = [
         allowedUser: [USER_TYPE.ADMIN],
     },
     {
-        title: 'All users',
+        title: 'All Empoyees',
         icon: 'heroicons-outline:users',
         isOpen: true,
         isHide: true,
@@ -438,7 +438,7 @@ export const menuItems: NavRow[] = [
         allowedUser: [USER_TYPE.ADMIN],
     },
     {
-        title: 'Subscribers',
+        title: 'Jobs',
         icon: 'heroicons-shield-check',
         isOpen: true,
         isHide: true,
@@ -446,7 +446,7 @@ export const menuItems: NavRow[] = [
         allowedUser: [USER_TYPE.ADMIN],
     },
     {
-        title: 'Package Management',
+        title: 'Products',
         icon: 'ic:outline-local-offer',
         isOpen: true,
         isHide: true,
@@ -454,7 +454,7 @@ export const menuItems: NavRow[] = [
         allowedUser: [USER_TYPE.ADMIN],
     },
     {
-        title: 'Transaction',
+        title: 'Transactions',
         icon: 'solar:dollar-outline',
         isOpen: true,
         isHide: true,
