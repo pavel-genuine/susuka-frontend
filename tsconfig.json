@@ -1,0 +1,40 @@
+{
+  "compilerOptions":
+   {
+    "paths": {
+      "@/*": ["./*"]
+    },
+    
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "app/dashboard/users/page.tsx", "components/ui/Select.jsx", "components/ui/Select.jsx", "app/dashboard/layout.jsx", "components/ui/Textinput.jsx", "components/ui/Textinput.jsx", "components/ui/Textinput.jsx", "components/ui/Textinput.jsx", "components/ui/Checkbox.tsx", "components/ui/Checkbox.tsx", "components/partials/auth/login-form.jsx", "components/ui/Dropdown.jsx", "components/ui/Dropdown.jsx", "app/dashboard/subscribers/page.js", "components/ui/Dropdown.jsx", "components/ui/Card.jsx", "app/dashboard/utility/pricing/page.js", "middleware.js", "components/ui/Radio.jsx", "components/ui/Radio.jsx", "components/ui/Radio.jsx"  ]
+}
